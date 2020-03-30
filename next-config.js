@@ -1,6 +1,6 @@
 module.exports = {
   exportTrailingSlash: true,
-  exportPath: function() {
+  exportPathMap: function() {
     return {
       '/': { page: '/' },
       '/about': { page: '/about' }
