@@ -6,7 +6,7 @@ export default function Index() {
       <Link href="/about" as={`${process.env.ASSET_PREFIX}/about`}>
         <a>About</a>
       </Link>
-      <p>Hello, Testing.</p>
+      <p>Hello, Testing. More testing.</p>
     </div>
   )
 }
